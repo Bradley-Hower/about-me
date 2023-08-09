@@ -3,5 +3,25 @@ body {
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 40pt;
+  text-align: center;
+  width: 100%;
 }
+
+h2 {
+  font-size: 30pt;
+  text-align: center;
+  width: 100%;
+}
+
+article {
+  background-color: rgb(3, 71, 126);
+  color: rgb(206, 206, 206);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20pt;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
