@@ -100,6 +100,7 @@ function quiz(){
 
     if (response6 === 2){
       alert('You got it!');
+      break;
     } else if (response6 > 2){
       alert(`Too high. Guess again. Try ${attemptcount}/4`);
     } else if (response6 < 2){
@@ -109,7 +110,9 @@ function quiz(){
     }
     attemptcount++;
   }
-
+  if (attemptcount === 4){
+    alert('I have two dogs. Well, technically they are my father in law\'s');
+  }
 
   alert(`${username}, thank you for taking my quiz. I hope you learned a little bit about me.`);
 }
