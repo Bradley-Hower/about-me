@@ -133,11 +133,13 @@ function quiz(){
 
   // Question 7
   let attemptcountq7 = 0;
+  const favoritethings = [Math.floor(Math.random() * (50 - 1) + 1), Math.floor(Math.random() * (50 - 1) + 1), Math.floor(Math.random() * (50 - 1) + 1)];
+  console.log(favoritethings);
   question7:
   while (attemptcountq7 < 6){
-    let guess = prompt(`Guess a color. There are three significant ones. ${attemptcountq7}/6`).toLowerCase();
+    let guess = Number(prompt(`Guess a number from 1 through 50. There are three random ones generated. ${attemptcountq7+1}/6`));
     // console.log(guess);
-    const favoritethings = ['red', 'white', 'blue'];
+
     for (const thing of favoritethings){
       // console.log(thing);
       if (guess === thing){
@@ -148,8 +150,8 @@ function quiz(){
     }
     attemptcountq7++;
   }
-  alert('The colors are red, white, and blue. The colors of my home, the US.');
 
+  alert(`The numbers were ${favoritethings[0]}, ${favoritethings[1]}, and ${favoritethings[2]}.`)
 
   alert(`${username}, thank you for taking my quiz. You got ${scorecount}/7 questions correct. I hope you learned a little bit about me.`);
 }
