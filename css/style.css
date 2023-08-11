@@ -1,10 +1,13 @@
 body {
   background-color: grey;
+  color: #f3f3f3;
+  text-shadow: 0 0 1px white;
 }
 
 h1 {
   font-size: 40pt;
   text-align: center;
+
   width: 100%;
 }
 
@@ -15,8 +18,8 @@ h2 {
 }
 
 article {
-  background-color: rgb(3, 71, 126);
-  color: rgb(206, 206, 206);
+  background-color: #F3E9D7;
+  color: #414940;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20pt;
   margin: 20px;
