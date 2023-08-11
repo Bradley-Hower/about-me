@@ -13,7 +13,7 @@ function quiz(){
   let response1_feedback = 'You didn\'t answer...';
 
   let response1 = prompt('Did I grow up in the Seattle area?').toLowerCase();
-  console.log(response1);
+  // console.log(response1);
 
   if (response1 === 'y' || response1 === 'yes'){
     response1_feedback = 'Wow! Nice job!';
@@ -29,7 +29,7 @@ function quiz(){
   let response2_feedback = 'You didn\'t answer...';
 
   let response2 = prompt('Did I go to university?').toLowerCase();
-  console.log(response2);
+  // console.log(response2);
 
   if (response2 === 'y' || response2 === 'yes'){
     response2_feedback = 'Wow! Nice job!';
@@ -45,7 +45,7 @@ function quiz(){
   let response3_feedback = 'You didn\'t answer...';
 
   let response3 = prompt('Did I work in a hospital?').toLowerCase();
-  console.log(response3);
+  // console.log(response3);
 
   if (response3 === 'y' || response3 === 'yes'){
     response3_feedback = 'Sorry. Incorrect.';
@@ -61,7 +61,7 @@ function quiz(){
   let response4_feedback = 'You didn\'t answer...';
 
   let response4 = prompt('Or did I work in mortages?').toLowerCase();
-  console.log(response4);
+  // console.log(response4);
 
   if (response4 === 'y' || response4 === 'yes'){
     response4_feedback = 'Wow! Nice job!';
@@ -77,7 +77,7 @@ function quiz(){
   let response5_feedback = 'You didn\'t answer...';
 
   let response5 = prompt('Do I have any children?').toLowerCase();
-  console.log(response5);
+  // console.log(response5);
 
   if (response5 === 'y' || response5 === 'yes'){
     response5_feedback = 'Wow! Nice job!';
@@ -88,6 +88,28 @@ function quiz(){
   }
   // console.log(response5_feedback)
   alert(response5_feedback);
+
+  // Question6
+
+
+  let attemptcount = 0;
+  let response6 = 0;
+  while (response6 !== 2 && attemptcount < 4){
+    let response6 = Number(prompt('Now guess how many dogs I have.'));
+    console.log(response6);
+
+    if (response6 === 2){
+      alert('You got it!');
+    } else if (response6 > 2){
+      alert(`Too high. Guess again. Try ${attemptcount}/4`);
+    } else if (response6 < 2){
+      alert(`Too low. Guess again. Try ${attemptcount}/4`);
+    } else {
+      alert(`That's not a real number. Guess again. Try ${attemptcount}/4`);
+    }
+    attemptcount++;
+  }
+
 
   alert(`${username}, thank you for taking my quiz. I hope you learned a little bit about me.`);
 }
