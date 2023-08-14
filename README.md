@@ -4,7 +4,7 @@
 
 A site telling you a bit more about me. Here you can take a quiz - an interactive way to get to know me.
 
-### Author: Bradley Hower
+### Author: Bradley Hower and Isai Chaidez. Navigator: Bradley Hower. Driver: Isai Chaidez
 
 ### Links and Resources
 
@@ -30,3 +30,5 @@ My prior work in finance required me to be very organized with hyper attention t
 
 Lab 05 
 I got stuck on one of the bento problems for much longer than I should have and it was driving me crazy. I finally figured it out after simplifying. I overthink things, always trying to dive so deep when sometimes the fish is just below the surface. I also find I really need to have enough fuel in me. Otherwise, I can not think clearly.
+
+
