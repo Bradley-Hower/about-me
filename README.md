@@ -28,6 +28,9 @@ Lab 03
 How do you think your prior life and professional experience will help you in this new endeavor?
 My prior work in finance required me to be very organized with hyper attention to detail. This no doubt will be very useful for coding, as even the smallest mistake can break code. I found the lab today to be fun. It was a fun challenge to work through. It's great to be able to use what we learn and then add on top of it a bit of a push, requiring us to work to expand beyond the course material a little. A very useful skill to develop with strength.
 
+Lab 04
+Coding together with others brings up unique challenges. People have different ways of writing code and each person has their own blind spots. I am seeing that being able to detect these blind spots and work through them is important in being able to achieve the best outcomes. In general, I don't have difficulty communicating. It is a matter of just learning to do the actual writing with others.
+
 Lab 05 
 I got stuck on one of the bento problems for much longer than I should have and it was driving me crazy. I finally figured it out after simplifying. I overthink things, always trying to dive so deep when sometimes the fish is just below the surface. I also find I really need to have enough fuel in me. Otherwise, I can not think clearly.
 
