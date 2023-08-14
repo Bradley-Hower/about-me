@@ -2,25 +2,21 @@
 
 
 
+let username = prompt('What is your name?');
+let scorecount = 0;
 
-function getName() {
-  
-  
-  let username = prompt('What is your name?');
-    
+function getName(){
   confirm(`Welcome ${username}. Let's do a quiz. How much do you know about me?`);
-
 }
 
 getName();
 
-function Question1() {
-  
-  let scorecount = 0;
-  // Question1
+
+function question1(){
+
   let response1_feedback = 'You didn\'t answer...';
   let response1 = prompt('Did I grow up in the Seattle area?').toLowerCase();
-  
+
   if (response1 === 'y' || response1 === 'yes'){
     response1_feedback = 'Wow! Nice job!';
     scorecount++;
@@ -30,15 +26,11 @@ function Question1() {
     response1_feedback = 'Sorry. I do not understand.';
   }
   alert(response1_feedback);
-  
-
 }
 
-Question1();
+question1();
 
-// Question2
-function Question2(){  // Question2
-
+function question2(){
   let response2_feedback = 'You didn\'t answer...';
   let response2 = prompt('Did I go to university?').toLowerCase();
 
@@ -50,12 +42,15 @@ function Question2(){  // Question2
   } else {
     response2_feedback = 'Sorry. I do not understand.';
   }
-  alert(response2_feedback);}
+  alert(response2_feedback);
+}
 
-  Question2();
+question2();
 
-  // Question3
-function Question3 {  let response3_feedback = 'You didn\'t answer...';
+
+
+function question3(){
+  let response3_feedback = 'You didn\'t answer...';
   let response3 = prompt('Did I work in a hospital?').toLowerCase();
 
   if (response3 === 'y' || response3 === 'yes'){
@@ -66,12 +61,14 @@ function Question3 {  let response3_feedback = 'You didn\'t answer...';
   } else {
     response3_feedback = 'Sorry. I do not understand.';
   }
-  alert(response3_feedback);}
+  alert(response3_feedback);
+}
 
-  Question3();
+question3();
 
-  // Question4
-function Question4() {  let response4_feedback = 'You didn\'t answer...';
+
+function question4(){
+  let response4_feedback = 'You didn\'t answer...';
   let response4 = prompt('Or did I work in mortages?').toLowerCase();
 
   if (response4 === 'y' || response4 === 'yes'){
@@ -85,11 +82,12 @@ function Question4() {  let response4_feedback = 'You didn\'t answer...';
   alert(response4_feedback);
 }
 
-Question4();
+question4();
 
 
-  // Question5
-function Question5(){  let response5_feedback = 'You didn\'t answer...';
+
+function question5(){
+  let response5_feedback = 'You didn\'t answer...';
   let response5 = prompt('Do I have any children?').toLowerCase();
 
   if (response5 === 'y' || response5 === 'yes'){
@@ -103,11 +101,10 @@ function Question5(){  let response5_feedback = 'You didn\'t answer...';
   alert(response5_feedback);
 }
 
-Question5();
+question5();
 
-  // Question6
 
-function Question6() {
+function question6(){
   let attemptcountq6 = 0;
   let response6 = 0;
   while (response6 !== 2 && attemptcountq6 < 4){
@@ -137,12 +134,15 @@ function Question6() {
       }
     }
     attemptcountq6++;
-  }}
+  }
+}
 
-  Question6();
 
-  // Question 7
-function Question7() {  let attemptcountq7 = 0;
+question6();
+
+
+function question7(){
+  let attemptcountq7 = 0;
   const numberlotto = [Math.floor(Math.random() * (50 - 1) + 1), Math.floor(Math.random() * (50 - 1) + 1), Math.floor(Math.random() * (50 - 1) + 1)];
   question7:
   while (attemptcountq7 < 6){
@@ -163,4 +163,5 @@ function Question7() {  let attemptcountq7 = 0;
   alert(`${username}, thank you for taking my quiz. You got ${scorecount}/7 questions correct. I hope you learned a little bit about me.`);
 }
 
-Question7();
+
+question7();
