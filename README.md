@@ -34,4 +34,10 @@ Coding together with others brings up unique challenges. People have different w
 Lab 05 
 I got stuck on one of the bento problems for much longer than I should have and it was driving me crazy. I finally figured it out after simplifying. I overthink things, always trying to dive so deep when sometimes the fish is just below the surface. I also find I really need to have enough fuel in me. Otherwise, I can not think clearly.
 
+Lab 06
+The struggle was there. But it wasn't so bad. I think the critical thing I need to keep in mind is to not over complicate everything. There are times when the solution is one layer simpler than I think it is. I think I have to make another loop or object, etc, but actually, the answer is much closer. Breaks are very important too.
+
+It is very exciting to be able to inject elements right into the DOM via JavaScript. I can see that this will open a lot more possibilities. The way JavaScript is coded with methods I find is a bit weird and can make it a bit confusing as the delineation isn't so clear between it and other purposes, such as pulling up a property. Also, dot notation vs bracket use, depending on the context. It seems it would be better to be consistent in convention.
+
+Learning about the STAR method in the career portion of this class was good for me I think. Having that structure I think is very helpful. I feel me speaking too much maybe is undesired, but it appears I am wrong. This was some great insight.
 
