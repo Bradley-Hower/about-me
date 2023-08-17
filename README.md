@@ -41,3 +41,6 @@ It is very exciting to be able to inject elements right into the DOM via JavaScr
 
 Learning about the STAR method in the career portion of this class was good for me I think. Having that structure I think is very helpful. I feel me speaking too much maybe is undesired, but it appears I am wrong. This was some great insight.
 
+Lab 07
+
+Things are becoming easier now. Having a broader context makes it easier. Discovered I ran into an issue that is very strange. I could not run past a certain number of loops on one of my loops. I am starting to think my system might have had memory issue there, but no matter, I found an alternative way to make it work. Taking breaks indeed helps.
