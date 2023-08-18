@@ -44,3 +44,7 @@ Learning about the STAR method in the career portion of this class was good for 
 Lab 07
 
 Things are becoming easier now. Having a broader context makes it easier. Discovered I ran into an issue that is very strange. I could not run past a certain number of loops on one of my loops. I am starting to think my system might have had memory issue there, but no matter, I found an alternative way to make it work. Taking breaks indeed helps.
+
+Lab 08
+
+Sleep is good. But perhaps so is taking things slowly. I forget what other elemnents already exist sometimes and code without the full perspective. I still think flexbox is problemmatic on multiple layers. If you just want to use it on a single layer, sure, can be done. But if you want a flexbox within a flexbox, it really doesn't work well. 
