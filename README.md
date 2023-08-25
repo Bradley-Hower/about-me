@@ -48,3 +48,7 @@ Things are becoming easier now. Having a broader context makes it easier. Discov
 Lab 08
 
 Sleep is good. But perhaps so is taking things slowly. I forget what other elemnents already exist sometimes and code without the full perspective. I still think flexbox is problemmatic on multiple layers. If you just want to use it on a single layer, sure, can be done. But if you want a flexbox within a flexbox, it really doesn't work well. 
+
+Lab 11
+
+I think perhaps regular review of concepts is helpful. It will allow me to more easily pull the structures out of my head when needed. I am also still falling into the trap of only looking for the solution to a bug in one place. I need to review all my code once the obvious places have been verified. 
