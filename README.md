@@ -52,3 +52,8 @@ Sleep is good. But perhaps so is taking things slowly. I forget what other elemn
 Lab 11
 
 I think perhaps regular review of concepts is helpful. It will allow me to more easily pull the structures out of my head when needed. I am also still falling into the trap of only looking for the solution to a bug in one place. I need to review all my code once the obvious places have been verified. 
+
+Lab 12
+
+Realizing that I should not make an variable a plural form will save a lot of pain. Continuing to push for a schedule and become more regular in my studying.
+
