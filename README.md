@@ -60,3 +60,7 @@ Realizing that I should not make an variable a plural form will save a lot of pa
 Lab 13
 
 Learning the ins and outs of how the object stances work is interesting. I learned that variables can be attached to instances or not. These are not separate areas of JS. This was helpful and allowed me to do some keen things with the chart re-rendering. I also came to understand better how JSON works. Very interesting. It's great to see how string storage works and how, as needed, objects can be pulled out and reconstructed as instances. I feel this gives me a start to much more of how the web works. Growing up, I had always heard about JSON files but didn't really understand what they did. I think trying to learn out of context would have made it confusing. It's exciting to realize all the useful things I am entering into now.
+
+Lab 14
+
+Today I learned the ins and outs of property dot and bracket notation. It is quite a bit, but after some thought, it makes sense. To fit one's mind into that framework is difficult, but workable once there. Things are going well overall. I have a clear understanding of how helper functions and constructors work. The reading on psychological safety was a good one. It made me realize the importance of creating a friendly atmosphere to get people engaged. 
